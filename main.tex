@@ -1,19 +1,26 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[ngerman, a4paper, 12pt]{article}
 
 \usepackage[margin=2.5cm]{geometry}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{amsthm}
 
-\usepackage[latin1]{inputenc}
-\usepackage[ngerman]{babel}
+\usepackage{inputenc}
+\usepackage{babel}
+
+\newtheorem*{definition}{Definition}
+
+\linespread{1.25}
 
 \begin{document}
 
 \tableofcontents
 \newpage
 
-\input{contents/gesetze/rechengesetze.tex}
-\input{contents/gesetze/potenzgesetze.tex}
+\input{contents/algebraische_grundlagen.tex}
+
+\newpage
+\input{literatur.tex}
 
 \end{document}
